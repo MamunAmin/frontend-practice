@@ -1,0 +1,248 @@
+body {
+	margin: 0;
+	padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.header {
+	background: #3F5D9A;
+}
+.logoin {
+	width: 75%;
+	margin: auto;
+	overflow: hidden;
+}
+.logo {
+	width: 30%;
+	float: left;
+}
+.logo img {
+	width: 180px;
+	margin-top: 26px;
+}
+.log_in {
+	width: 70%;
+	float: right;
+	color: white;
+}
+form {
+	float: right;
+}
+.log_in label,
+.pass input{
+	display: block;
+}
+.email, .pass, .login {
+	float: left;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-right: 13px;
+}
+.email input,
+.pass input {
+	border: .2px solid black;
+	padding: 2px;
+}
+.pass a {
+	text-decoration: none;
+	color: #9cb4d8;
+}
+.pass a:hover {
+	text-decoration: underline;
+}
+.pass{
+	margin-bottom: 5px;
+}
+.log_in label {
+	padding-bottom: 5px;
+}
+.login input[type="submit"]{
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	color: white;
+	padding: 2px 8px;
+	margin-top: 23px;
+	font-weight: 700;
+}
+.login input[type="submit"]:hover {
+	background: #365899;
+}
+/*
+*/
+.middle{
+	background: linear-gradient(#ffffff, #d4d9e9);
+}
+.SignUp {
+	width: 75%;
+	margin: auto;
+	
+	overflow: hidden;
+}
+.left{
+	width: 58%;
+	float: left;
+}
+.right{
+	width:42%;
+	float:right;
+	margin-left: -20px;
+}
+.UpLine {
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 40px;
+	word-spacing: -1px;
+}
+.left img {
+	width: 464px;
+	height: 174px;
+	margin-top: -20px;
+	margin-left: 30px;
+}
+.right h2{
+	font-size: 40px;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-weight: 700;
+}
+.right .free {
+	margin: 10px 0px;
+	font-size: : 20px;
+	font-weight: 700;
+}
+.right input[type="text"],
+.right input[type="password"] {
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 8px 10px;
+	font-size: 18px;
+	margin: 5px 0px;
+}
+.fullName{
+	overflow: hidden;
+}
+.firstName{
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+.lastName{
+	width: 48%;
+	float: left;
+}
+.birthDate h4{
+	color:#90949c;
+	font:16px 700;
+	margin-bottom: 5px;
+}
+.date{
+	overflow: hidden;
+}
+.date select{
+	padding: 5px 8px;
+	border: 1px solid #ccc;
+	margin: 5px 0px;
+	float: left;
+}
+.gender h4{
+	color:#90949c;
+	font:16px 700;
+	margin: 5px 0px;
+}
+.gender label{
+	font-weight: 700;
+	color: #1d2129
+}
+.policy a,
+.page a{
+	text-decoration: none;
+	color: #385898;
+}
+.policy a:hover,
+.page a:hover{
+	text-decoration: underline;
+}
+.policy{
+	font-size: 12px;
+	line-height: 1.1;
+	color: #777;
+}
+p.page{
+	font-size: 13px 700;
+	line-height: 1.1;
+	color: #777;
+}
+.button input{
+	font-size: 21px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    padding: 8px 12px;
+    width: 194px;
+    text-align: center;
+    border-radius: 5px;
+    color: white; 
+    margin-bottom: 10px;
+}
+.button input:hover{
+	background: linear-gradient(#578843, #67ae55);
+	cursor: pointer;
+}
+/*
+*/
+.footer-part{
+	padding: 0;
+	margin: 0;
+}
+.footer-area{
+	width: 70%;
+	margin: auto;
+	padding: 15px 0px 10px;
+}
+.footer-area ul{
+	margin: 0;
+	padding: 0;
+}
+.footer-area li{
+	display: inline;
+}
+.footer-area a{
+	text-decoration: none;
+	color: #365899;
+	font-size: 12px;
+	padding-right: 12px;
+
+}
+.footer-area a:hover{
+	text-decoration: underline;
+}
+.active a{
+	color: #737373;
+}
+.active a:hover{
+	text-decoration: none;
+}
+.plas button{
+	font-size: 15px;
+	border-radius: 3px;
+	margin: 0;
+	padding: 0px 8px;
+}
+.footer-area hr{
+	border:0;
+	border: .5px solid #d4d4d4;
+}
+
+
+.bottom{
+	margin:0;
+	padding: 0;
+	margin-top: 15px;
+	font-size: 13px;
+	color: #737373;
+}

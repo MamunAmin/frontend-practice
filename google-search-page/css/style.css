@@ -1,0 +1,139 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header{
+	overflow: hidden;
+}
+.block{
+	float: right;
+	margin-right: 40px;	
+}
+.gmail,
+.images{
+	float: left;
+	font-size: 13.5px;
+	margin-top: 17px;
+	padding: 8px;
+}
+.gmail a,
+.images a{
+	text-decoration: none;
+	color: #393a35;
+}
+.gmail a:hover,
+.images a:hover{
+	text-decoration: underline;
+	color: #393a35;
+}
+.img{
+	float: left;
+	padding: 0px 10px;
+}
+.img img{
+	margin-top: 25px;
+}
+.button{
+	overflow: hidden;
+	padding: 0px 10px;
+}
+.button input[type="submit"]{
+	font-size: 13px;
+	float: left;
+	margin-top: 17px;
+	background-color: #4584ee;
+	color: white;
+	padding: 7px 12px;
+	font-weight: 700;
+	border: 0;
+	border-radius: 2px;
+}
+.middle{
+	width: 50%;
+	margin: auto;
+	margin-top: 150px;
+	text-align: center;
+}
+.search-box input[type="text"]{
+	padding: 13px 240px;
+	margin-top: 20px;
+	border: 0;
+	border-radius: 30px;
+	border: 1px solid;
+	border-color: #d8d8d8;
+	margin-bottom: 30px;
+}
+.search-box input[type="text"]:hover{
+	box-shadow: 1px 1px 1px #b8b8b8;
+}
+.google-search,
+.i-m-lucky{
+	display: inline;
+}
+.google-search input[type="submit"],
+.i-m-lucky input[type="submit"]{
+	background-color: #f2f2f2;
+	border: 0;
+	padding: 10px 30px;
+	font-size: 14px;
+	color: #555652;
+	margin-right: 5px;
+	border-radius: 3px;
+}
+.google-search input[type="submit"]:hover,
+.i-m-lucky input[type="submit"]:hover{
+	box-shadow: 1px 1px 1px #b8b8b8;
+	font-size: 13px;
+	color: black;
+}
+.offer{
+	font-size: 13px;
+	margin-top: 35px;
+	margin-bottom: 68px;
+	color: #4a4848;
+}
+.offer a{
+	text-decoration: none;
+}
+.offer a:hover{
+	text-decoration: underline;
+}
+footer{
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+footer hr{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border: .3px solid #e1e1e1;
+}
+.link{
+	margin-left: 30px;
+}
+.bd div{
+	padding: 0px 40px;
+	line-height: 40px;
+	color: #737373;
+	font-size: 15px;
+}
+.link .one{
+	float: left;
+	line-height: 40px;
+}
+.link .two{
+	float: right;
+	line-height: 40px;
+}
+.link .one a,
+.link .two a{
+	text-decoration: none;
+	color: #737373;
+	font-size: 13px;
+	padding: 0px 10px;
+}
+.link .one a:hover,
+.link .two a:hover{
+	text-decoration: underline;
+}
