@@ -1,5 +1,5 @@
 body {
-    background-color: #fff459;
+    background-color: #fffea7;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@ a:link, a:visited {
     box-sizing: border-box;
     font-size: 20px;
     width: 250px;
-    background-color: #15e631;
+    background-color: rgb(255, 178, 89);
     color: #ffffff;
     border-radius: 10px;
     padding: 14px 25px;
